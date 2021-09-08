@@ -104,3 +104,34 @@ h1 {
   width: 100vw;
   z-index: 1;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .modal-on {
+    padding: 2rem 0rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    padding: 5px 10px;
+  }
+
+  .modal-off {
+    padding: 2rem 0rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .btn-close {
+    top: -25px;
+    left: 25px;
+    font-size: 1.5rem;
+  }
+}
